@@ -27,7 +27,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1679845047.106458
+    "time": 1679845047.156458
   },
   {
     "event_type": "down",
@@ -96,12 +96,12 @@
   },
   {
     "event_type": "down",
-    "name": "x",
+    "name": "w",
     "time": 1679845050.2235007
   },
   {
     "event_type": "down",
-    "name": "x",
+    "name": "w",
     "time": 1679845050.2550137
   },
   {
@@ -197,21 +197,11 @@
   {
     "event_type": "down",
     "name": "caps lock",
-    "time": 1679845052.7181892
-  },
-  {
-    "event_type": "up",
-    "name": "caps lock",
-    "time": 1679845052.8212116
-  },
-  {
-    "event_type": "down",
-    "name": "X",
     "time": 1679845053.4559963
   },
   {
     "event_type": "up",
-    "name": "X",
+    "name": "caps lock",
     "time": 1679845053.5492544
   },
   {
@@ -276,12 +266,12 @@
   },
   {
     "event_type": "down",
-    "name": "W",
+    "name": "x",
     "time": 1679845058.066005
   },
   {
     "event_type": "up",
-    "name": "W",
+    "name": "x",
     "time": 1679845058.1800308
   },
   {
@@ -297,11 +287,31 @@
   {
     "event_type": "down",
     "name": "A",
-    "time": 1679845060.201965
+    "time": 1679845060.601965
   },
   {
     "event_type": "up",
     "name": "A",
-    "time": 1679845060.358014
+    "time": 1679845060.758014
+  },
+    {
+    "event_type": "down",
+    "name": "A",
+    "time": 1679845061.01965
+  },
+  {
+    "event_type": "up",
+    "name": "A",
+    "time": 1679845061.58014
+  },
+   {
+    "event_type": "down",
+    "name": "A",
+    "time": 1679845062.601965
+  },
+  {
+    "event_type": "up",
+    "name": "A",
+    "time": 1679845062.758014
   }
 ]

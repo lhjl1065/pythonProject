@@ -231,42 +231,32 @@
   },
   {
     "event_type": "down",
-    "name": "esc",
-    "time": 1679833236.8294406
-  },
-  {
-    "event_type": "up",
-    "name": "esc",
-    "time": 1679833236.9464662
-  },
-  {
-    "event_type": "down",
-    "name": "esc",
+    "name": "1",
     "time": 1679833237.1661558
   },
   {
     "event_type": "up",
-    "name": "esc",
+    "name": "1",
     "time": 1679833237.2827673
   },
   {
     "event_type": "down",
     "name": "esc",
-    "time": 1679833237.6898592
+    "time": 1679833243.6099234
   },
   {
     "event_type": "up",
     "name": "esc",
-    "time": 1679833237.835892
+    "time": 1679833243.7019444
   },
-  {
+    {
     "event_type": "down",
     "name": "f10",
-    "time": 1679833238.6099234
+    "time": 1679833244.6898592
   },
   {
     "event_type": "up",
     "name": "f10",
-    "time": 1679833238.7019444
+    "time": 1679833244.835892
   }
 ]

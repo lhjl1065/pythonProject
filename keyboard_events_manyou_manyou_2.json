@@ -1,16 +1,6 @@
 [
   {
     "event_type": "down",
-    "name": "down",
-    "time": 1679842337.6795175
-  },
-  {
-    "event_type": "up",
-    "name": "down",
-    "time": 1679842337.753696
-  },
-  {
-    "event_type": "down",
     "name": "end",
     "time": 1679842338.390301
   },

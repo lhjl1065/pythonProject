@@ -76,13 +76,23 @@
   },
   {
     "event_type": "down",
-    "name": "q",
+    "name": "W",
     "time": 1679830544.13144
   },
   {
     "event_type": "up",
-    "name": "q",
+    "name": "W",
     "time": 1679830544.2864745
+  },
+    {
+    "event_type": "down",
+    "name": "E",
+    "time": 1679830545.13144
+  },
+  {
+    "event_type": "up",
+    "name": "E",
+    "time": 1679830545.2864745
   },
   {
     "event_type": "down",
@@ -247,21 +257,21 @@
   {
     "event_type": "down",
     "name": "A",
-    "time": 1679830574.926919
+    "time": 1679830572.926919
   },
   {
     "event_type": "up",
     "name": "A",
-    "time": 1679830575.055566
+    "time": 1679830573.055566
   },
   {
     "event_type": "down",
     "name": "A",
-    "time": 1679830575.7311213
+    "time": 1679830573.7311213
   },
   {
     "event_type": "up",
     "name": "A",
-    "time": 1679830575.8661528
+    "time": 1679830573.8661528
   }
 ]

@@ -1,16 +1,6 @@
 [
   {
     "event_type": "down",
-    "name": "A",
-    "time": 1679845854.7381952
-  },
-  {
-    "event_type": "up",
-    "name": "A",
-    "time": 1679845854.9305227
-  },
-  {
-    "event_type": "down",
     "name": "page down",
     "time": 1679845855.9284096
   },

@@ -209,26 +209,7 @@
     "name": "esc",
     "time": 1680026280.2096736
   },
-  {
-    "event_type": "down",
-    "name": "esc",
-    "time": 1680026280.5255704
-  },
-  {
-    "event_type": "up",
-    "name": "esc",
-    "time": 1680026280.6624532
-  },
-  {
-    "event_type": "down",
-    "name": "esc",
-    "time": 1680026281.1685205
-  },
-  {
-    "event_type": "up",
-    "name": "esc",
-    "time": 1680026281.2945485
-  },
+ 
   {
     "event_type": "down",
     "name": "f10",
