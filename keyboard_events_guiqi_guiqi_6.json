@@ -181,42 +181,32 @@
   },
   {
     "event_type": "down",
-    "name": "esc",
-    "time": 1680100113.3925555
-  },
-  {
-    "event_type": "up",
-    "name": "esc",
-    "time": 1680100113.5225852
-  },
-  {
-    "event_type": "down",
-    "name": "esc",
+    "name": "1",
     "time": 1680100115.525632
   },
   {
     "event_type": "up",
-    "name": "esc",
+    "name": "1",
     "time": 1680100115.6241617
   },
   {
     "event_type": "down",
-    "name": "esc",
-    "time": 1680100116.0276263
+    "name": "ESC",
+    "time": 1680100121.397667
   },
   {
     "event_type": "up",
-    "name": "esc",
-    "time": 1680100116.1326497
+    "name": "ESC",
+    "time": 1680100121.572258
   },
   {
     "event_type": "down",
     "name": "f10",
-    "time": 1680100118.397667
+    "time": 1680100122.397667
   },
   {
     "event_type": "up",
     "name": "f10",
-    "time": 1680100118.572258
+    "time": 1680100122.572258
   }
 ]

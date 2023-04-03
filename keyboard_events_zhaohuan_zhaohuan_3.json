@@ -121,16 +121,6 @@
   },
   {
     "event_type": "down",
-    "name": "clear",
-    "time": 1680093355.486144
-  },
-  {
-    "event_type": "up",
-    "name": "clear",
-    "time": 1680093355.6141732
-  },
-  {
-    "event_type": "down",
     "name": "end",
     "time": 1680093355.8958468
   },

@@ -15,16 +15,6 @@
     "time": 1680101286.7452555
   },
   {
-    "event_type": "down",
-    "name": "clear",
-    "time": 1680101287.523361
-  },
-  {
-    "event_type": "up",
-    "name": "clear",
-    "time": 1680101287.682998
-  },
-  {
     "event_type": "up",
     "name": "page down",
     "time": 1680101287.8879473
