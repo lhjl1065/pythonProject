@@ -32,31 +32,31 @@ def choose_and_clik(x, y):
 def moveto_nuo_si_pi_si():
     time.sleep(1)
     # 传送按钮 (808, 1234)
-    choose_and_clik(808, 1234)
+    choose_and_clik(809, 1239)
     time.sleep(1)
 
     # 点开地图 (1125, 732)
-    choose_and_clik(1125, 732)
+    choose_and_clik(1120, 731)
     time.sleep(1)
 
     # 选择地图 (868, 155)
-    choose_and_clik(868, 155)
+    choose_and_clik(858, 162)
     time.sleep(1)
 
     # 天界 (809, 233)
-    choose_and_clik(809, 233)
+    choose_and_clik(804, 236)
     time.sleep(1)
 
     #    诺斯匹斯 (1093, 288)
-    choose_and_clik(1093, 288)
+    choose_and_clik(1104, 291)
     time.sleep(1)
 
     # 地下城入口 (941, 725)
-    choose_and_clik(941, 725)
+    choose_and_clik(938, 756)
     time.sleep(1)
 
     # 确认传送(1114, 732)
-    choose_and_clik(1114, 732)
+    choose_and_clik(1123, 734)
     time.sleep(1)
 
 
@@ -102,11 +102,11 @@ def switch_character(x, y):
     keyboard.release('esc')
     time.sleep(1)
     choose_and_clik(x, y)
-    time.sleep(1)
+    time.sleep(3)
     keyboard.press('page down')
     time.sleep(0.1)
     keyboard.release('page down')
-    time.sleep(0.5)
+    time.sleep(2)
     keyboard.press('space')
     time.sleep(0.1)
     keyboard.release('space')
