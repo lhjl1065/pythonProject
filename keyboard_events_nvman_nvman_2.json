@@ -42,22 +42,12 @@
   {
     "event_type": "down",
     "name": "q",
-    "time": 1680712237.8732214
+    "time": 1680712238.5522618
   },
   {
     "event_type": "up",
     "name": "q",
-    "time": 1680712237.986247
-  },
-  {
-    "event_type": "down",
-    "name": "q",
-    "time": 1680712238.0522618
-  },
-  {
-    "event_type": "up",
-    "name": "q",
-    "time": 1680712238.1468937
+    "time": 1680712238.7468937
   },
   {
     "event_type": "down",
@@ -117,7 +107,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680712244.5427089
+    "time": 1680712244.427089
   },
   {
     "event_type": "down",

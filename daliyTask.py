@@ -66,7 +66,8 @@ characters = [
     # Character('siling', 'siling', 180, 165.5),X
     # Character('rengying', 'rengying', 180, 268),
     # Character('xiuluo', 'xiuluo', 180, 152),
-    Character('huahua', 'huahua', 180, 269),
+    # Character('huahua', 'huahua', 180, 269),
+    Character('nvman', 'nvman', 180, 179),
     # Character('naima', 'naima', 188, 166),
     # Character('zhaohuan', 'zhaohuan', 182, 154),
     # Character('wushen', 'wushen', 188, 228),
@@ -77,7 +78,7 @@ characters = [
     # 更多角色...xx
 ]
 
-daily_task_factors = [0, 0.1, 0.1, 0.1, 0, -0.25]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, 0.1, 0, 0, 0, -0.25]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")

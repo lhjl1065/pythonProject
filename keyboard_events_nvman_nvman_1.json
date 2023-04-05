@@ -2,101 +2,81 @@
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680711970.7715635
+    "time": 1680713013.2737117
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680711970.8695858
+    "time": 1680713013.3532667
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680711970.9295988
+    "time": 1680713013.3972764
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680711971.0066175
+    "time": 1680713013.4602911
   },
   {
     "event_type": "down",
     "name": "space",
-    "time": 1680711971.0756319
+    "time": 1680713013.513302
   },
   {
     "event_type": "up",
     "name": "space",
-    "time": 1680711971.2154136
-  },
-  {
-    "event_type": "down",
-    "name": "w",
-    "time": 1680711972.4573662
-  },
-  {
-    "event_type": "up",
-    "name": "w",
-    "time": 1680711972.563813
-  },
-  {
-    "event_type": "down",
-    "name": "q",
-    "time": 1680711972.70961
-  },
-  {
-    "event_type": "up",
-    "name": "q",
-    "time": 1680711972.8406389
-  },
-  {
-    "event_type": "down",
-    "name": "q",
-    "time": 1680711972.9715722
-  },
-  {
-    "event_type": "up",
-    "name": "q",
-    "time": 1680711973.0956008
+    "time": 1680713013.6053221
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680711973.8424647
+    "time": 1680713014.9244788
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680711973.9314847
+    "time": 1680713015.4513528
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680711973.9934986
+    "time": 1680713015.5274346
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680711975.9039464
+    "time": 1680713015.586449
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1680713015.6440725
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1680713017.5471215
   },
   {
     "event_type": "down",
     "name": "end",
-    "time": 1680711976.350269
+    "time": 1680713017.8443623
   },
   {
     "event_type": "up",
     "name": "end",
-    "time": 1680711976.431287
+    "time": 1680713017.9203823
   },
   {
     "event_type": "down",
     "name": "a",
-    "time": 1680711976.9155827
+    "time": 1680713018.2636628
   },
   {
     "event_type": "up",
     "name": "a",
-    "time": 1680711977.4122448
+    "time": 1680713018.6073062
   }
 ]
