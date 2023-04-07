@@ -1,16 +1,6 @@
 [
   {
     "event_type": "down",
-    "name": "A",
-    "time": 1679833213.429472
-  },
-  {
-    "event_type": "up",
-    "name": "A",
-    "time": 1679833213.5945077
-  },
-  {
-    "event_type": "down",
     "name": "page down",
     "time": 1679833217.6734674
   },
@@ -239,24 +229,44 @@
     "name": "1",
     "time": 1679833237.2827673
   },
+    {
+    "event_type": "down",
+    "name": "1",
+    "time": 1679833238.1661558
+  },
+  {
+    "event_type": "up",
+    "name": "1",
+    "time": 1679833238.2827673
+  },
+   {
+    "event_type": "down",
+    "name": "1",
+    "time": 1679833239.1661558
+  },
+  {
+    "event_type": "up",
+    "name": "1",
+    "time": 1679833239.2827673
+  },
   {
     "event_type": "down",
     "name": "esc",
-    "time": 1679833243.6099234
+    "time": 1679833244.6099234
   },
   {
     "event_type": "up",
     "name": "esc",
-    "time": 1679833243.7019444
+    "time": 1679833244.7019444
   },
     {
     "event_type": "down",
     "name": "f10",
-    "time": 1679833244.6898592
+    "time": 1679833245.6898592
   },
   {
     "event_type": "up",
     "name": "f10",
-    "time": 1679833244.835892
+    "time": 1679833245.835892
   }
 ]

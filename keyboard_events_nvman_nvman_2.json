@@ -37,7 +37,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1680712237.3079772
+    "time": 1680712237.5079772
   },
   {
     "event_type": "down",
@@ -107,7 +107,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680712244.427089
+    "time": 1680712244.627089
   },
   {
     "event_type": "down",
