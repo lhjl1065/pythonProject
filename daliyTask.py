@@ -58,32 +58,16 @@ def switch_character():
     pass
 
 characters = [
-    # Character('qigong', 'qigong', 188, 177),
-    # Character('jianhun', 'jianhun', 188, 208),
-    # Character('hongyan', 'hongyan', 188, 286),
-    # Character('manyou', 'manyou', 188, 261),
-    # Character('qiangpao', 'qiangpao', 26, 166),
-    # Character('siling', 'siling', 180, 165.5),
-
-
-    # Character('jianhun1', 'jianhun1', 38, 157),
-    # Character('rengying', 'rengying', 188, 268),
-    # Character('xiuluo', 'xiuluo', 124, 152),
-    # Character('huahua', 'huahua', 188, 269),
-    # Character('nvman', 'nvman', 90, 179),
-    Character('yingwu', 'yingwu', 90, 166),
-
-
-
-    # Character('zhaohuan', 'zhaohuan', 1182, 154),
-    # Character('wushen', 'wushen', 188, 228),
-    # Character('guiqi', 'guiqi',188, 209),
-    # Character('guangqiang', 'guangqiang', 188, 175),
-    # Character('jianhun1', 'jianhun1', 188, 243),
+    Character('jianhun1', 'jianhun1',8, 157),
+    Character('rengying', 'rengying', 32, 268),
+    Character('xiuluo', 'xiuluo', 32, 152),
+    Character('huahua', 'huahua', 32, 269),
+    Character('nvman', 'nvman', 32, 179),
+    Character('yingwu', 'yingwu', 32, 166),
     # 更多角色...xx
 ]
 
-daily_task_factors = [0, 0.1, -0.25, 0.15, -0.05, -0.15]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, 0.2, 0.05, 0, 0.2, -0.15]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
