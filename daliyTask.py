@@ -54,27 +54,17 @@ class Character:
 
 def switch_character():
     # 在这里实现您的切换角色逻辑
-    CommonTool.switch_character(927, 735)
+    CommonTool.switch_character(1235, 926)
     pass
 
 characters = [
-    # Character('qigong', 'qigong', 182, 177),
-    # Character('jianhun', 'jianhun', 188, 208),
-    # Character('hongyan', 'hongyan', 188, 286),
-    # Character('manyou', 'manyou', 188, 261),
-    # Character('naima', 'naima', 188, 166),
-    # Character('qiangpao', 'qiangpao', 188, 166),
-    # Character('siling', 'siling', 188, 165.5),
-
-    # Character('xiuluo', 'xiuluo', 188, 152),
 
 
-
-    # Character('zhaohuan', 'zhaohuan', 188, 154),
-    # Character('wushen', 'wushen', 188, 228),
-    # Character('guiqi', 'guiqi',181, 209),
-    Character('guangqiang', 'guangqiang', 182, 175),
-    Character('nailuo', 'nailuo', 188, 160),
+    # Character('zhaohuan', 'zhaohuan', 156, 154),
+    # Character('wushen', 'wushen', 152, 228),
+    Character('guiqi', 'guiqi',10, 209),
+    Character('guangqiang', 'guangqiang', 150, 175),
+    Character('nailuo', 'nailuo', 156, 160),
 
 
     # Character('jianhun1', 'jianhun1', 188, 157),
