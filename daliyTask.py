@@ -21,7 +21,7 @@ class Character:
 
     def do_task_by_profession(self, task_factor, task_id):
         # Step 1: Adjust character position
-        time.sleep(1)
+        time.sleep(1.5)
         print("{}开始在房间{}调整位置".format(self.name, task_id))
         hold_duration = task_factor * (177 / self.move_speed)
         if task_factor > 0:
@@ -54,25 +54,21 @@ class Character:
 
 def switch_character():
     # 在这里实现您的切换角色逻辑
-    CommonTool.switch_character(1235, 926)
+    CommonTool.switch_character(928, 754)
     pass
 
 characters = [
 
 
-    # Character('zhaohuan', 'zhaohuan', 156, 154),
-    # Character('wushen', 'wushen', 152, 228),
-    Character('guiqi', 'guiqi',10, 209),
-    Character('guangqiang', 'guangqiang', 150, 175),
-    Character('nailuo', 'nailuo', 156, 160),
-
-
-    # Character('jianhun1', 'jianhun1', 188, 157),
-    # Character('jianhun1', 'jianhun1', 188, 243),r
+    # Character('zhaohuan', 'zhaohuan', 67, 154),
+    # Character('wushen', 'wushen', 188, 228),
+    Character('guangqiang', 'guangqiang', 188, 175),
+    Character('guiqi', 'guiqi', 188, 209),
+    Character('nailuo', 'nailuo', 113, 160),x
     # 更多角色...xxxxx
 ]
 
-daily_task_factors = [0, 0.1, 0, 0.15, -0.15, -0.35]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, -0.1, -0.2, 0.1, 0.2, -0.35]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
