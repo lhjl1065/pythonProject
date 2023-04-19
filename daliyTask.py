@@ -58,16 +58,16 @@ def switch_character():
     pass
 
 characters = [
-    # Character('qigong', 'qigong', 68, 177),
-    Character('jianhun', 'jianhun', 188, 208),
+    # Character('qigong', 'qigong', 182, 177),
+    Character('jianhun', 'jianhun', 160, 208),
     # Character('manyou', 'manyou', 188, 261),
-    # Character('qiangpao', 'qiangpao', 164, 166),
+    # Character('qiangpao', 'qiangpao', 188, 166),
     # Character('hongyan', 'hongyan', 188, 286),
     # Character('siling', 'siling', 188, 165.5),
     Character('naima', 'naima', 188, 166),
 ]
 
-daily_task_factors = [0, -0.2, -0.1, 0.2, 0.1, -0.3]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, -0.1, 0.1, 0, 0.3, -0.15]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
