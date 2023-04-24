@@ -97,31 +97,11 @@
   {
     "event_type": "down",
     "name": "caps lock",
-    "time": 1679830546.171787
-  },
-  {
-    "event_type": "up",
-    "name": "caps lock",
-    "time": 1679830546.2568069
-  },
-  {
-    "event_type": "down",
-    "name": "X",
-    "time": 1679830547.1301029
-  },
-  {
-    "event_type": "up",
-    "name": "X",
-    "time": 1679830547.2201233
-  },
-  {
-    "event_type": "down",
-    "name": "X",
     "time": 1679830547.8337905
   },
   {
     "event_type": "up",
-    "name": "X",
+    "name": "caps lock",
     "time": 1679830547.8958044
   },
   {
