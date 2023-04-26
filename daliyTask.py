@@ -19,16 +19,16 @@ class Character:
             self.action_points -= 6
             time.sleep(5)
 
-    def do_task_by_profession(self, task_factor, task_id):
+    def do_task_by_profession(self, distance, task_id):
         # Step 1: Adjust character position
         time.sleep(1)
         print("{}开始在房间{}调整位置".format(self.name, task_id))
-        hold_duration = task_factor * (177 / self.move_speed)
-        if task_factor > 0:
+        hold_duration = distance / (self.move_speed * 1.4904)
+        if distance > 0:
             keyboard.press('clear')
             time.sleep(hold_duration)
             keyboard.release('clear')
-        elif task_factor < 0:
+        elif distance < 0:
             keyboard.press('down')
             time.sleep(-hold_duration)
             keyboard.release('down')
@@ -54,21 +54,26 @@ class Character:
 
 def switch_character():
     # 在这里实现您的切换角色逻辑
-    CommonTool.switch_character(1083, 923)
+    CommonTool.switch_character(1082, 1014)
     pass
 
 characters = [
-    Character('jianhun1', 'jianhun1',8, 157),
-    Character('rengying', 'rengying', 32, 268),
-    Character('xiuluo', 'xiuluo', 32, 152),
-    Character('huahua', 'huahua', 32, 269),
-    Character('nvman', 'nvman', 32, 179),
-    Character('yingwu', 'yingwu', 32, 166),
-    # 更多角色...xx
+    Character('nvman', 'nvman', 182,191),
+    Character('rengying', 'rengying', 188, 268),
+    Character('jianhun1', 'jianhun1', 188, 165),
+    Character('huahua', 'huahua', 188, 268),
+    Character('xiuluo', 'xiuluo', 188, 152),
+    Character('yingwu', 'yingwu', 188, 166),
+    Character('jianzhong', 'jianzhong', 188, 162),
+    Character('honggou', 'honggou', 188, 197),
+    Character('jianmo', 'jianmo', 188, 169),
+    Character('naiba', 'naiba', 188, 179),
+    # 更多角色...xxhA
 ]
-
-daily_task_factors = [0, 0.2, 0.05, 0, 0.2, -0.15]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
-
+daily_task_factors = [0, 27, 54,66, 17, -110]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+#
+# time.sleep(60*60*2)
+# CommonTool.moveto_en_san()
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
     character.complete_daily_task(daily_task_factors)
