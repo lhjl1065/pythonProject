@@ -58,16 +58,19 @@ def switch_character():
     pass
 
 characters = [
-    # Character('qigong', 'qigong', 164, 177),
-    # Character('jianhun', 'jianhun', 188, 208),
-    # Character('manyou', 'manyou', 68, 261),
-    # Character('qiangpao', 'qiangpao', 121, 166),
-    # Character('hongyan', 'hongyan', 188, 286),
-    # Character('siling', 'siling', 92, 165.5),
-    Character('naima', 'naima', 144, 166),
+    # Character('qigong', 'qigong', 188, 177),
+    Character('jianhun', 'jianhun', 188, 208),
+    Character('manyou', 'manyou', 188, 261),
+    Character('qiangpao', 'qiangpao', 188, 166),
+    Character('hongyan', 'hongyan', 188, 286),
+    Character('siling', 'siling', 188, 165.5),
+    Character('naima', 'naima', 188, 166),
+    Character('zhaohuan2', 'zhaohuan2', 188, 146),
 ]
-# time.sleep(60*33)
-daily_task_factors = [0, -0.05, 0.1, 0.1, -0.05, -0.2]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]
+# time.sleep(60*60*2+20*60)
+# CommonTool.moveto_en_san()
+
+daily_task_factors = [0, 0.1, 0.08, 0.15, -0.07, -0.25]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
