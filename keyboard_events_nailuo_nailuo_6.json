@@ -2,271 +2,271 @@
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680542138.6683745
+    "time": 1682354276.127429
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680542138.7322042
+    "time": 1682354276.2051747
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1680542138.8290763
+    "time": 1682354276.2709527
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1680542139.6928513
+    "time": 1682354276.9527292
   },
   {
     "event_type": "down",
-    "name": "t",
-    "time": 1680542139.7048192
+    "name": "T",
+    "time": 1682354276.9679818
   },
   {
     "event_type": "up",
-    "name": "t",
-    "time": 1680542139.8968422
+    "name": "T",
+    "time": 1682354277.1742928
   },
   {
     "event_type": "down",
-    "name": "g",
-    "time": 1680542140.6327064
+    "name": "G",
+    "time": 1682354277.987208
   },
   {
     "event_type": "up",
-    "name": "g",
-    "time": 1680542140.887414
+    "name": "G",
+    "time": 1682354278.295809
   },
   {
     "event_type": "down",
-    "name": "r",
-    "time": 1680542141.580587
+    "name": "R",
+    "time": 1682354278.640452
   },
   {
     "event_type": "up",
-    "name": "r",
-    "time": 1680542141.8754916
+    "name": "R",
+    "time": 1682354278.9707797
   },
   {
     "event_type": "down",
-    "name": "e",
-    "time": 1680542143.1492193
+    "name": "D",
+    "time": 1682354279.3515038
   },
   {
     "event_type": "up",
-    "name": "e",
-    "time": 1680542143.4157784
+    "name": "D",
+    "time": 1682354279.6425297
   },
   {
     "event_type": "down",
-    "name": "d",
-    "time": 1680542143.744574
+    "name": "S",
+    "time": 1682354279.9818735
   },
   {
     "event_type": "up",
-    "name": "d",
-    "time": 1680542144.0999358
+    "name": "S",
+    "time": 1682354280.2984674
   },
   {
     "event_type": "down",
-    "name": "d",
-    "time": 1680542144.4570117
+    "name": "W",
+    "time": 1682354280.4718897
   },
   {
     "event_type": "up",
-    "name": "d",
-    "time": 1680542144.8161669
+    "name": "W",
+    "time": 1682354280.7061613
   },
   {
     "event_type": "down",
-    "name": "d",
-    "time": 1680542145.0371666
+    "name": "E",
+    "time": 1682354280.809062
   },
   {
     "event_type": "up",
-    "name": "d",
-    "time": 1680542145.3642132
+    "name": "E",
+    "time": 1682354281.098786
   },
   {
     "event_type": "down",
-    "name": "ctrl",
-    "time": 1680542145.9487739
-  },
-  {
-    "event_type": "up",
-    "name": "ctrl",
-    "time": 1680542146.3314478
+    "name": "G",
+    "time": 1682354281.2173905
   },
   {
     "event_type": "down",
-    "name": "ctrl",
-    "time": 1680542146.4122458
+    "name": "F",
+    "time": 1682354281.2323399
   },
   {
     "event_type": "up",
-    "name": "ctrl",
-    "time": 1680542146.8361018
+    "name": "G",
+    "time": 1682354281.3888164
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354281.3888164
   },
   {
     "event_type": "down",
-    "name": "ctrl",
-    "time": 1680542146.967757
+    "name": "F",
+    "time": 1682354281.4695458
   },
   {
     "event_type": "up",
-    "name": "ctrl",
-    "time": 1680542147.3596468
+    "name": "F",
+    "time": 1682354281.806088
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354282.0378857
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354282.3759155
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354283.2597175
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354283.5158575
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354283.6394436
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354283.8804183
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354284.2412825
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354284.483839
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354284.6177201
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354284.8440394
+  },
+  {
+    "event_type": "down",
+    "name": "F",
+    "time": 1682354285.0891733
+  },
+  {
+    "event_type": "up",
+    "name": "F",
+    "time": 1682354285.3383393
   },
   {
     "event_type": "down",
     "name": "alt",
-    "time": 1680542147.4841738
+    "time": 1682354285.9749417
   },
   {
     "event_type": "up",
     "name": "alt",
-    "time": 1680542147.9769962
+    "time": 1682354286.421073
   },
   {
     "event_type": "down",
-    "name": "s",
-    "time": 1680542157.143729
+    "name": "W",
+    "time": 1682354288.5021832
   },
   {
     "event_type": "up",
-    "name": "s",
-    "time": 1680542157.4555628
-  },
-  {
-    "event_type": "down",
-    "name": "w",
-    "time": 1680542157.8964226
-  },
-  {
-    "event_type": "up",
-    "name": "w",
-    "time": 1680542158.2284186
-  },
-  {
-    "event_type": "down",
-    "name": "f",
-    "time": 1680542158.6635664
-  },
-  {
-    "event_type": "up",
-    "name": "f",
-    "time": 1680542158.8808908
+    "name": "W",
+    "time": 1682354288.946062
   },
   {
     "event_type": "down",
     "name": "3",
-    "time": 1680542160.2118707
+    "time": 1682354301.3059006
   },
   {
     "event_type": "up",
     "name": "3",
-    "time": 1680542160.3435502
+    "time": 1682354301.4049244
   },
   {
     "event_type": "down",
-    "name": "x",
-    "time": 1680542161.0000467
+    "name": "X",
+    "time": 1682354301.9586256
   },
   {
     "event_type": "up",
-    "name": "x",
-    "time": 1680542161.159582
+    "name": "X",
+    "time": 1682354302.052313
   },
   {
     "event_type": "down",
-    "name": "x",
-    "time": 1680542161.552097
+    "name": "X",
+    "time": 1682354302.7021432
   },
   {
     "event_type": "up",
-    "name": "x",
-    "time": 1680542161.7280962
+    "name": "X",
+    "time": 1682354302.7944438
   },
   {
     "event_type": "down",
-    "name": "x",
-    "time": 1680542162.024037
+    "name": "X",
+    "time": 1682354303.4687166
   },
   {
     "event_type": "up",
-    "name": "x",
-    "time": 1680542162.1721518
+    "name": "X",
+    "time": 1682354303.552432
   },
   {
     "event_type": "down",
-    "name": "x",
-    "time": 1680542162.4364939
+    "name": "X",
+    "time": 1682354304.2609842
   },
   {
     "event_type": "up",
-    "name": "x",
-    "time": 1680542162.5481956
-  },
-  {
-    "event_type": "down",
-    "name": "x",
-    "time": 1680542162.7915485
-  },
-  {
-    "event_type": "up",
-    "name": "x",
-    "time": 1680542162.924195
-  },
-  {
-    "event_type": "down",
-    "name": "1",
-    "time": 1680542163.608249
-  },
-  {
-    "event_type": "up",
-    "name": "1",
-    "time": 1680542163.7120042
-  },
-  {
-    "event_type": "down",
-    "name": "1",
-    "time": 1680542164.8450303
-  },
-  {
-    "event_type": "up",
-    "name": "1",
-    "time": 1680542164.9916549
-  },
-  {
-    "event_type": "down",
-    "name": "1",
-    "time": 1680542165.7959585
-  },
-  {
-    "event_type": "up",
-    "name": "1",
-    "time": 1680542165.9237516
+    "name": "X",
+    "time": 1682354304.346698
   },
   {
     "event_type": "down",
     "name": "esc",
-    "time": 1680542169.2437656
+    "time": 1682354305.2400815
   },
   {
     "event_type": "up",
     "name": "esc",
-    "time": 1680542169.371616
+    "time": 1682354305.3566911
   },
   {
     "event_type": "down",
     "name": "f10",
-    "time": 1680542171.552038
+    "time": 1682354306.0359952
   },
   {
     "event_type": "up",
     "name": "f10",
-    "time": 1680542171.6956825
+    "time": 1682354306.2044294
   }
 ]

@@ -57,18 +57,21 @@ def switch_character():
     CommonTool.switch_character(1069, 1009)
     pass
 
+
 characters = [
 
 
-    Character('zhaohuan', 'zhaohuan', 8, 154),
+    Character('zhaohuan', 'zhaohuan', 188, 154),
     Character('wushen', 'wushen', 188, 228),
     Character('guangqiang', 'guangqiang', 188, 175),
     Character('guiqi', 'guiqi', 188, 209),
     Character('nailuo', 'nailuo', 188, 160),
     # 更多角色...xxxxx
 ]
+daily_task_factors = [0, -0.17, -0.06, -0.18, 0.2, -0.35]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 
-daily_task_factors = [0, -0.04, -0.08, -0.1, 0.2, -0.35]  # 示例，您可以根据实际情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+# time.sleep(60*60*4+42*60)
+# CommonTool.moveto_en_san()
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")

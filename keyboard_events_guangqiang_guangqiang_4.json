@@ -91,26 +91,6 @@
   },
   {
     "event_type": "down",
-    "name": "X",
-    "time": 1680105060.2284534
-  },
-  {
-    "event_type": "up",
-    "name": "X",
-    "time": 1680105060.2909765
-  },
-  {
-    "event_type": "down",
-    "name": "X",
-    "time": 1680105060.8236718
-  },
-  {
-    "event_type": "up",
-    "name": "X",
-    "time": 1680105060.911457
-  },
-  {
-    "event_type": "down",
     "name": "page down",
     "time": 1680105061.6485767
   },
