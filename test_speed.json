@@ -1,0 +1,11 @@
+  [{
+    "event_type": "down",
+    "name": "clear",
+    "time": 1681151928.0
+  },
+  {
+    "event_type": "up",
+    "name": "clear",
+    "time": 1681151929.05
+  }
+  ]

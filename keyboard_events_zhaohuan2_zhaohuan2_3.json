@@ -1,0 +1,112 @@
+[
+  {
+    "event_type": "down",
+    "name": "q",
+    "time": 1682363728.817104
+  },
+  {
+    "event_type": "up",
+    "name": "q",
+    "time": 1682363729.0051455
+  },
+  {
+    "event_type": "down",
+    "name": "alt",
+    "time": 1682363729.5730758
+  },
+  {
+    "event_type": "up",
+    "name": "alt",
+    "time": 1682363729.7212284
+  },
+  {
+    "event_type": "down",
+    "name": "r",
+    "time": 1682363730.2019653
+  },
+  {
+    "event_type": "up",
+    "name": "r",
+    "time": 1682363730.3175662
+  },
+  {
+    "event_type": "down",
+    "name": "caps lock",
+    "time": 1682363739.0297203
+  },
+  {
+    "event_type": "up",
+    "name": "caps lock",
+    "time": 1682363739.1497467
+  },
+  {
+    "event_type": "down",
+    "name": "X",
+    "time": 1682363739.4620318
+  },
+  {
+    "event_type": "up",
+    "name": "X",
+    "time": 1682363739.5540516
+  },
+  {
+    "event_type": "down",
+    "name": "X",
+    "time": 1682363739.989736
+  },
+  {
+    "event_type": "up",
+    "name": "X",
+    "time": 1682363740.0857575
+  },
+  {
+    "event_type": "down",
+    "name": "X",
+    "time": 1682363740.5419757
+  },
+  {
+    "event_type": "up",
+    "name": "X",
+    "time": 1682363740.6575391
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1682363740.9901938
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1682363741.0692115
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1682363741.1102211
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1682363744.3087907
+  },
+  {
+    "event_type": "down",
+    "name": "end",
+    "time": 1682363744.52895
+  },
+  {
+    "event_type": "up",
+    "name": "end",
+    "time": 1682363744.5969648
+  },
+  {
+    "event_type": "down",
+    "name": "A",
+    "time": 1682363766.797514
+  },
+  {
+    "event_type": "up",
+    "name": "A",
+    "time": 1682363766.8855326
+  }
+]

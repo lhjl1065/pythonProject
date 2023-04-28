@@ -19,16 +19,16 @@ class Character:
             self.action_points -= 6
             time.sleep(5)
 
-    def do_task_by_profession(self, task_factor, task_id):
+    def do_task_by_profession(self, distance, task_id):
         # Step 1: Adjust character position
         time.sleep(1)
         print("{}开始在房间{}调整位置".format(self.name, task_id))
-        hold_duration = task_factor * (177 / self.move_speed)
-        if task_factor > 0:
+        hold_duration = distance / (self.move_speed * 2.011)
+        if distance > 0:
             keyboard.press('clear')
             time.sleep(hold_duration)
             keyboard.release('clear')
-        elif task_factor < 0:
+        elif distance < 0:
             keyboard.press('down')
             time.sleep(-hold_duration)
             keyboard.release('down')
@@ -58,19 +58,19 @@ def switch_character():
     pass
 
 characters = [
-    # Character('qigong', 'qigong', 188, 177),
-    Character('jianhun', 'jianhun', 188, 208),
-    Character('manyou', 'manyou', 188, 261),
-    Character('qiangpao', 'qiangpao', 188, 166),
-    Character('hongyan', 'hongyan', 188, 286),
-    Character('siling', 'siling', 188, 165.5),
+    # Character('qiangpao', 'qiangpao', 1, 166),
+    # Character('qigong', 'qigong', 182, 177),
+    # Character('jianhun', 'jianhun', 80, 206),
+    # Character('manyou', 'manyou', 32, 261),
+    # Character('hongyan', 'hongyan', 188, 286),
+    Character('siling', 'siling', 176, 165.5),
     Character('naima', 'naima', 188, 166),
     Character('zhaohuan2', 'zhaohuan2', 188, 146),
 ]
 # time.sleep(60*60*2+20*60)
 # CommonTool.moveto_en_san()
 
-daily_task_factors = [0, 0.1, 0.08, 0.15, -0.07, -0.25]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, 75, 19, 11, -75, -10]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
