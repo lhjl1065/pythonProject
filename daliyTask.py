@@ -3,6 +3,8 @@ import keyboard
 import time
 
 import CommonTool
+import pyautogui
+import testX
 
 
 class Character:
@@ -13,10 +15,12 @@ class Character:
         self.move_speed = move_speed
 
     def complete_daily_task(self, daily_task_factors):
-        while self.action_points > 0:
+        zero_pl = False
+        while not zero_pl:
             for i, task_factor in enumerate(daily_task_factors):
                 self.do_task_by_profession(task_factor, i+1)
-            self.action_points -= 6
+            pyautogui.moveTo(1558, 1149)
+            zero_pl = testX.find_image_method()
             time.sleep(5)
 
     def do_task_by_profession(self, distance, task_id):
@@ -58,21 +62,19 @@ def switch_character():
     pass
 
 characters = [
-    Character('nvman', 'nvman', 182,191),
-    Character('rengying', 'rengying', 188, 268),
-    Character('jianhun1', 'jianhun1', 188, 165),
-    Character('huahua', 'huahua', 188, 268),
-    Character('xiuluo', 'xiuluo', 188, 152),
-    Character('yingwu', 'yingwu', 188, 166),
-    Character('jianzhong', 'jianzhong', 188, 162),
-    Character('honggou', 'honggou', 188, 197),
-    Character('jianmo', 'jianmo', 188, 169),
-    Character('naiba', 'naiba', 188, 179),
+    # Character('naiba', 'naiba', 2, 179),
+    # Character('xiuluo', 'xiuluo', 2, 152),
+    # Character('yingwu', 'yingwu', 2, 166),
+    # Character('jianzhong', 'jianzhong', 2, 162),
+    # Character('huahua', 'huahua', 2, 268),
+    # Character('nvman', 'nvman', 2, 191),
+    # Character('rengying', 'rengying', 2, 268),
+    # Character('jianhun1', 'jianhun1', 2, 165),
+    Character('honggou', 'honggou', 2, 197),
+    Character('jianmo', 'jianmo', 2, 169),
     # 更多角色...xxhA
 ]
-daily_task_factors = [0, 27, 54,66, 17, -110]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
-#
-# time.sleep(60*60*2)
+daily_task_factors = [0, 0, 80, 69, 71, -20]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 # CommonTool.moveto_en_san()
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
