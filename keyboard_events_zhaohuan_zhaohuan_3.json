@@ -42,21 +42,11 @@
   {
     "event_type": "down",
     "name": "caps lock",
-    "time": 1680093347.6984675
-  },
-  {
-    "event_type": "up",
-    "name": "caps lock",
-    "time": 1680093347.7854357
-  },
-  {
-    "event_type": "down",
-    "name": "X",
     "time": 1680093348.7322445
   },
   {
     "event_type": "up",
-    "name": "X",
+    "name": "caps lock",
     "time": 1680093348.8399005
   },
   {
@@ -98,6 +88,16 @@
     "event_type": "up",
     "name": "X",
     "time": 1680093351.5791628
+  },
+    {
+    "event_type": "down",
+    "name": "X",
+    "time": 1680093351.6371305
+  },
+  {
+    "event_type": "up",
+    "name": "X",
+    "time": 1680093351.7791628
   },
   {
     "event_type": "down",

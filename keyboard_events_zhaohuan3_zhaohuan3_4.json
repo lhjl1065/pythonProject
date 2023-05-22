@@ -1,182 +1,162 @@
 [
   {
     "event_type": "down",
-    "name": "clear",
-    "time": 1683105679.819004
-  },
-  {
-    "event_type": "down",
     "name": "page down",
-    "time": 1683105679.9230018
-  },
-  {
-    "event_type": "up",
-    "name": "clear",
-    "time": 1683105679.9870017
-  },
-  {
-    "event_type": "down",
-    "name": "z",
-    "time": 1683105680.0150006
+    "time": 1683105135.4970326
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1683105680.2190003
+    "time": 1683105135.6400347
+  },
+  {
+    "event_type": "down",
+    "name": "q",
+    "time": 1683105135.6680355
   },
   {
     "event_type": "up",
-    "name": "z",
-    "time": 1683105680.2240016
+    "name": "q",
+    "time": 1683105136.0160315
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1683105680.7829998
+    "time": 1683105136.6320338
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1683105680.8710465
+    "time": 1683105136.7120404
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1683105680.9429998
+    "time": 1683105136.7840297
   },
   {
     "event_type": "down",
     "name": "f",
-    "time": 1683105681.2269995
+    "time": 1683105137.1280274
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1683105681.242999
+    "time": 1683105137.1330295
   },
   {
     "event_type": "up",
     "name": "f",
-    "time": 1683105681.3480408
+    "time": 1683105137.216032
   },
   {
     "event_type": "down",
     "name": "down",
-    "time": 1683105683.4870474
+    "time": 1683105139.3240285
   },
   {
     "event_type": "up",
     "name": "down",
-    "time": 1683105684.7910795
+    "time": 1683105140.412025
   },
   {
     "event_type": "down",
     "name": "clear",
-    "time": 1683105686.2150457
+    "time": 1683105143.5440288
   },
   {
     "event_type": "up",
     "name": "clear",
-    "time": 1683105687.3070423
+    "time": 1683105144.5600257
   },
   {
     "event_type": "down",
     "name": "caps lock",
-    "time": 1683105688.1710517
+    "time": 1683105145.0290263
   },
   {
     "event_type": "up",
     "name": "caps lock",
-    "time": 1683105688.2590523
+    "time": 1683105145.1370292
   },
   {
     "event_type": "down",
     "name": "X",
-    "time": 1683105688.7790582
+    "time": 1683105145.6240685
   },
   {
     "event_type": "up",
     "name": "X",
-    "time": 1683105688.8470922
+    "time": 1683105145.7290256
   },
   {
     "event_type": "down",
     "name": "X",
-    "time": 1683105689.4430501
+    "time": 1683105146.2400308
   },
   {
     "event_type": "up",
     "name": "X",
-    "time": 1683105689.5230508
+    "time": 1683105146.3160315
   },
   {
     "event_type": "down",
     "name": "X",
-    "time": 1683105690.1430492
+    "time": 1683105146.832033
   },
   {
     "event_type": "up",
     "name": "X",
-    "time": 1683105690.2510493
+    "time": 1683105146.9160287
   },
   {
     "event_type": "down",
     "name": "X",
-    "time": 1683105690.8150487
+    "time": 1683105147.3920665
   },
   {
     "event_type": "up",
     "name": "X",
-    "time": 1683105690.9270487
-  },
-  {
-    "event_type": "down",
-    "name": "X",
-    "time": 1683105691.4790494
-  },
-  {
-    "event_type": "up",
-    "name": "X",
-    "time": 1683105691.5870466
+    "time": 1683105147.4800284
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1683105692.0270476
+    "time": 1683105148.1320293
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1683105692.075046
+    "time": 1683105148.2200615
   },
   {
     "event_type": "down",
     "name": "page down",
-    "time": 1683105692.1550465
+    "time": 1683105148.2760286
   },
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1683105694.7630377
+    "time": 1683105150.5600202
   },
   {
     "event_type": "down",
     "name": "end",
-    "time": 1683105694.9150379
+    "time": 1683105150.888059
   },
   {
     "event_type": "up",
     "name": "end",
-    "time": 1683105695.0400395
+    "time": 1683105150.9960272
   },
   {
     "event_type": "down",
-    "name": "S",
-    "time": 1683105715.2670403
+    "name": "A",
+    "time": 1683105171.252028
   },
   {
     "event_type": "up",
-    "name": "S",
-    "time": 1683105715.3750381
+    "name": "A",
+    "time": 1683105171.3760226
   }
 ]

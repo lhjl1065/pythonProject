@@ -81,52 +81,12 @@
   },
   {
     "event_type": "down",
-    "name": "down",
-    "time": 1680093990.5406332
-  },
-  {
-    "event_type": "up",
-    "name": "down",
-    "time": 1680093990.620199
-  },
-  {
-    "event_type": "down",
-    "name": "down",
-    "time": 1680093990.6902149
-  },
-  {
-    "event_type": "up",
-    "name": "down",
-    "time": 1680093990.7732334
-  },
-  {
-    "event_type": "down",
-    "name": "clear",
-    "time": 1680093990.9519918
-  },
-  {
-    "event_type": "up",
-    "name": "clear",
-    "time": 1680093991.0050068
-  },
-  {
-    "event_type": "down",
-    "name": "clear",
-    "time": 1680093991.0730226
-  },
-  {
-    "event_type": "up",
-    "name": "clear",
-    "time": 1680093991.1378074
-  },
-  {
-    "event_type": "down",
-    "name": "space",
+    "name": "Y",
     "time": 1680093991.190323
   },
   {
     "event_type": "up",
-    "name": "space",
+    "name": "Y",
     "time": 1680093991.3119395
   },
   {

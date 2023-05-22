@@ -11,7 +11,7 @@ def screenshot():
     screen = cv2.cvtColor(np.array(screen), cv2.COLOR_RGB2BGR)
     return screen
 
-def find_image(screenshot, target_image_path, threshold=0.6):
+def find_image(screenshot, target_image_path, threshold=0.4):
     target_image = cv2.imread(target_image_path)
 
     gray_screenshot = cv2.cvtColor(screenshot, cv2.COLOR_BGR2GRAY)
