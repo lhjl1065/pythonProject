@@ -131,16 +131,6 @@
   },
   {
     "event_type": "down",
-    "name": "esc",
-    "time": 1680026274.1184063
-  },
-  {
-    "event_type": "up",
-    "name": "esc",
-    "time": 1680026274.2734413
-  },
-  {
-    "event_type": "down",
     "name": "3",
     "time": 1680026276.504192
   },

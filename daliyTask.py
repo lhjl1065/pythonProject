@@ -3,6 +3,8 @@ import keyboard
 import time
 
 import CommonTool
+import pyautogui
+import testX
 
 
 class Character:
@@ -13,10 +15,12 @@ class Character:
         self.move_speed = move_speed
 
     def complete_daily_task(self, daily_task_factors):
-        while self.action_points > 0:
+        zero_pl = False
+        while not zero_pl:
             for i, task_factor in enumerate(daily_task_factors):
                 self.do_task_by_profession(task_factor, i+1)
-            self.action_points -= 6
+            pyautogui.moveTo(1768, 1290)
+            zero_pl = testX.find_image_method()
             time.sleep(5)
 
     def do_task_by_profession(self, distance, task_id):
@@ -58,19 +62,19 @@ def switch_character():
     pass
 
 characters = [
-    # Character('qiangpao', 'qiangpao', 1, 166),
-    # Character('qigong', 'qigong', 182, 177),
-    # Character('jianhun', 'jianhun', 80, 206),
-    # Character('manyou', 'manyou', 32, 261),
-    # Character('hongyan', 'hongyan', 188, 286),
-    Character('siling', 'siling', 176, 165.5),
-    Character('naima', 'naima', 188, 166),
-    Character('zhaohuan2', 'zhaohuan2', 188, 146),
+    Character('qiangpao', 'qiangpao', 1, 166),
+    Character('qigong', 'qigong', 1, 177),
+    Character('jianhun', 'jianhun', 1, 206),
+    Character('manyou', 'manyou', 1, 261),
+    Character('hongyan', 'hongyan', 1, 286),
+    Character('siling', 'siling', 1, 165.5),
+    Character('zhaohuan2', 'zhaohuan2', 1, 146),
+    Character('naima', 'naima', 1, 166),
 ]
 # time.sleep(60*60*2+20*60)
-# CommonTool.moveto_en_san()
+# CommonTool.moveto_en_san()a
 
-daily_task_factors = [0, 75, 19, 11, -75, -10]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, -77, 69, 23, 95, -180]  # 示例，您可以根据实际情况设置[0, 0,XXX 0.2, 0.1, 0.14, 0]x
 
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
