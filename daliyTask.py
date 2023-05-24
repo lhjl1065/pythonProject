@@ -62,19 +62,19 @@ def switch_character():
     pass
 
 characters = [
-    # Character('naiba', 'naiba', 2, 179),
-    # Character('xiuluo', 'xiuluo', 2, 152),
-    # Character('yingwu', 'yingwu', 2, 166),
-    # Character('jianzhong', 'jianzhong', 2, 162),
-    # Character('huahua', 'huahua', 2, 268),
-    # Character('nvman', 'nvman', 2, 191),
-    # Character('rengying', 'rengying', 2, 268),
-    # Character('jianhun1', 'jianhun1', 2, 165),
+    Character('naiba', 'naiba', 2, 179),
+    Character('jianzhong', 'jianzhong', 2, 162),
+    Character('huahua', 'huahua', 2, 268),
+    Character('rengying', 'rengying', 2, 268),
+    Character('nvman', 'nvman', 2, 191),
+    Character('jianhun1', 'jianhun1', 2, 165),
     Character('honggou', 'honggou', 2, 197),
     Character('jianmo', 'jianmo', 2, 169),
+    Character('xiuluo', 'xiuluo', 2, 152),
+    Character('yingwu', 'yingwu', 2, 166),
     # 更多角色...xxhA
 ]
-daily_task_factors = [0, 0, 80, 69, 71, -20]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, 76, 12, -36, 24, -155]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 # CommonTool.moveto_en_san()
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")

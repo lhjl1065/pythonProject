@@ -91,23 +91,13 @@
   },
   {
     "event_type": "down",
-    "name": "X",
+    "name": "d",
     "time": 1681152442.368018
   },
   {
     "event_type": "up",
-    "name": "X",
+    "name": "d",
     "time": 1681152442.4437668
-  },
-  {
-    "event_type": "down",
-    "name": "X",
-    "time": 1681152442.8077257
-  },
-  {
-    "event_type": "up",
-    "name": "X",
-    "time": 1681152442.8964286
   },
   {
     "event_type": "down",
