@@ -1,0 +1,72 @@
+[
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1685321017.3085976
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1685321017.3883312
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1685321017.4361715
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1685321019.020644
+  },
+  {
+    "event_type": "down",
+    "name": "d",
+    "time": 1685321019.036591
+  },
+  {
+    "event_type": "up",
+    "name": "d",
+    "time": 1685321019.1442308
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1685321021.2001014
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1685321021.2688718
+  },
+  {
+    "event_type": "down",
+    "name": "page down",
+    "time": 1685321021.3366451
+  },
+  {
+    "event_type": "up",
+    "name": "page down",
+    "time": 1685321022.688145
+  },
+  {
+    "event_type": "down",
+    "name": "end",
+    "time": 1685321023.0485237
+  },
+  {
+    "event_type": "up",
+    "name": "end",
+    "time": 1685321023.168124
+  },
+  {
+    "event_type": "down",
+    "name": "a",
+    "time": 1685321023.5887172
+  },
+  {
+    "event_type": "up",
+    "name": "a",
+    "time": 1685321023.7128596
+  }
+]

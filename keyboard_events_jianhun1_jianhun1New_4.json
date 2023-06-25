@@ -7,7 +7,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1685952982.7737174
+    "time": 1685952982.7693734
   },
   {
     "event_type": "down",
@@ -17,7 +17,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1685952983.9775553
+    "time": 1685952983.9114444
   },
   {
     "event_type": "down",
@@ -27,7 +27,7 @@
   {
     "event_type": "up",
     "name": "d",
-    "time": 1685952984.0929759
+    "time": 1685952984.0873451
   },
   {
     "event_type": "down",
@@ -37,7 +37,7 @@
   {
     "event_type": "up",
     "name": "d",
-    "time": 1685952984.3650043
+    "time": 1685952984.3530478
   },
   {
     "event_type": "down",
@@ -47,7 +47,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952984.5454013
+    "time": 1685952984.540888
   },
   {
     "event_type": "down",
@@ -57,7 +57,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952984.689918
+    "time": 1685952984.6860254
   },
   {
     "event_type": "down",
@@ -67,7 +67,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952984.8453982
+    "time": 1685952984.8404336
   },
   {
     "event_type": "down",
@@ -77,7 +77,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952985.0218084
+    "time": 1685952985.0154335
   },
   {
     "event_type": "down",
@@ -87,7 +87,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952985.221142
+    "time": 1685952985.2127926
   },
   {
     "event_type": "down",
@@ -97,7 +97,7 @@
   {
     "event_type": "up",
     "name": "w",
-    "time": 1685952986.1090615
+    "time": 1685952986.10342
   },
   {
     "event_type": "down",
@@ -107,7 +107,7 @@
   {
     "event_type": "up",
     "name": "caps lock",
-    "time": 1685952988.4930048
+    "time": 1685952988.4860094
   },
   {
     "event_type": "down",
@@ -117,7 +117,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952989.0331986
+    "time": 1685952989.0264287
   },
   {
     "event_type": "down",
@@ -127,7 +127,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952989.5654736
+    "time": 1685952989.560509
   },
   {
     "event_type": "down",
@@ -137,7 +137,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952990.1130016
+    "time": 1685952990.108065
   },
   {
     "event_type": "down",
@@ -147,7 +147,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952990.7249894
+    "time": 1685952990.7200248
   },
   {
     "event_type": "down",
@@ -157,7 +157,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952991.4131947
+    "time": 1685952991.4066505
   },
   {
     "event_type": "down",
@@ -167,7 +167,7 @@
   {
     "event_type": "up",
     "name": "X",
-    "time": 1685952992.0297995
+    "time": 1685952992.0232267
   },
   {
     "event_type": "down",
@@ -177,7 +177,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1685952993.2377737
+    "time": 1685952993.18951
   },
   {
     "event_type": "down",
@@ -187,7 +187,7 @@
   {
     "event_type": "up",
     "name": "down",
-    "time": 1685952994.977009
+    "time": 1685952994.8934622
   },
   {
     "event_type": "down",
@@ -197,7 +197,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1685952995.4614608
+    "time": 1685952995.4575927
   },
   {
     "event_type": "down",
@@ -207,7 +207,7 @@
   {
     "event_type": "up",
     "name": "page down",
-    "time": 1685952996.5210698
+    "time": 1685952996.4644954
   },
   {
     "event_type": "down",
@@ -217,7 +217,7 @@
   {
     "event_type": "up",
     "name": "end",
-    "time": 1685952997.5064154
+    "time": 1685952997.4604008
   },
   {
     "event_type": "down",
@@ -227,7 +227,7 @@
   {
     "event_type": "up",
     "name": "down",
-    "time": 1685952998.1069167
+    "time": 1685952998.0815012
   },
   {
     "event_type": "down",
@@ -237,7 +237,7 @@
   {
     "event_type": "up",
     "name": "clear",
-    "time": 1685952999.4577467
+    "time": 1685952999.3925676
   },
   {
     "event_type": "down",
@@ -247,6 +247,6 @@
   {
     "event_type": "up",
     "name": "A",
-    "time": 1685953015.525206
+    "time": 1685953015.5068712
   }
 ]

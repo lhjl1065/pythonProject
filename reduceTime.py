@@ -29,7 +29,7 @@ def adjust_key_press_time(json_file, new_json_file):
         elif event_type == 'up' and key_name in key_press_times:
             down_time = key_press_times[key_name]
             time_diff = event_time - down_time
-            adjusted_time = down_time + (time_diff / 106 * 100)
+            adjusted_time = down_time + (time_diff / 110 * 100)
 
             # 创建调整后的元素
             adjusted_element = {
@@ -62,4 +62,4 @@ def adjust_key_press_time(json_file, new_json_file):
     print('Adjusted JSON file created: adjusted.json')
 
 # 调用函数并传入 JSON 文件路径
-adjust_key_press_time(r'C:\Users\Administrator\PycharmProjects\pythonDNF\keyboard_events_wunv_wunv_6.json', 'keyboard_events_wunv_wunvNew_6.json')
+adjust_key_press_time(r'C:\Users\Administrator\PycharmProjects\pythonDNF\keyboard_events_yingwu_yingwu_6.json', 'keyboard_events_yingwu_yingwuNew_6.json')

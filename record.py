@@ -52,7 +52,7 @@ def replay_keyboard_input(file_name):
 
 
 def generate_file_name(a, b):
-    return f"keyboard_events_{a}_{a}_{b}.json"
+    return f"keyboard_events_{a}_{a}" + "New" + f"_{b}.json"
 
 
 is_write = input("请输入是否监控 (true/false)：")

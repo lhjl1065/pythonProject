@@ -13,16 +13,25 @@ def screenshot():
     screen = cv2.cvtColor(np.array(screen), cv2.COLOR_RGB2BGR)
     return screen
 
-def find_image(screenshot, target_image_path, threshold=0.9):
+def find_image(screenshot, target_image_path, threshold=0.86):
     target_image = cv2.imread(target_image_path)
-
+    template_height = target_image.shape[0]
+    template_width = target_image.shape[0]
     gray_screenshot = cv2.cvtColor(screenshot, cv2.COLOR_BGR2GRAY)
     gray_target_image = cv2.cvtColor(target_image, cv2.COLOR_BGR2GRAY)
 
     result = cv2.matchTemplate(gray_screenshot, gray_target_image, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
-
-    return max_val > threshold
+    if max_val > threshold:
+        if 1571 > max_loc[0] > 1565 and 1107 > max_loc[1] > 1103:
+            print("疲劳值为0，即将切换角色")
+            return True
+        if 1804 > max_loc[0] > 1800 and 606 > max_loc[1] > 602:
+            print("副本失败，即将切换角色")
+            return True
+    return False
+    # result[max_loc[1]:max_loc[1] + template_height, max_loc[0]:max_loc[0] + template_width] = 0
+    # min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
 # 示例用法
 def find_image_method():
     time.sleep(3)

@@ -54,6 +54,8 @@ class Character:
 
             if i < len(key_events) - 1:
                 time_interval = key_events[i + 1]["time"] - key_event["time"]
+                if time_interval < 0:
+                    print(key_event["time"])
                 time.sleep(time_interval)
 
 def switch_character():
@@ -62,19 +64,20 @@ def switch_character():
     pass
 
 characters = [
-    Character('naiba', 'naiba', 2, 179),
-    Character('jianzhong', 'jianzhong', 2, 162),
-    Character('huahua', 'huahua', 2, 268),
-    Character('rengying', 'rengying', 2, 268),
-    Character('nvman', 'nvman', 2, 191),
-    Character('jianhun1', 'jianhun1', 2, 165),
-    Character('honggou', 'honggou', 2, 197),
-    Character('jianmo', 'jianmo', 2, 169),
-    Character('xiuluo', 'xiuluo', 2, 152),
-    Character('yingwu', 'yingwu', 2, 166),
+    # Character('naiba', 'naibaNew', 2, 195),
+    # Character('jianzhong', 'jianzhongNew', 2, 172),
+    # Character('huahua', 'huahuaNew', 2, 278),
+    # Character('rengying', 'rengyingNew', 2, 268),
+    # Character('nvman', 'nvmanNew', 2, 203),
+    # Character('jianhun1', 'jianhun1New', 2, 165),
+    # Character('honggou', 'honggouNew', 2, 197),
+    # Character('jianmo', 'jianmoNew', 2, 181),
+    Character('xiuluo', 'xiuluoNew', 2, 154.5),
+    Character('yingwu', 'yingwuNew', 2, 178),
+    Character('wunv', 'wunvNew', 2, 159.5),
     # 更多角色...xxhA
 ]
-daily_task_factors = [0, 76, 12, -36, 24, -155]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
+daily_task_factors = [0, 17, -15, 25, 38, -152]  # 示例，您可以根据实际d情况设置[0, 0, 0.2, 0.1, 0.14, 0]
 # CommonTool.moveto_en_san()
 for i, character in enumerate(characters):
     print(f"当前角色：{character.name}, 职业：{character.profession}, 行动点数：{character.action_points}, 移动速度：{character.move_speed}")
