@@ -1,1 +1,2 @@
 # pythonProject
+ChatGPT-Next-Web
